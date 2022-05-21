@@ -32,7 +32,9 @@ The profit test code refter to `test/test_custom.py`.
 
 # Tips
 Open two terminal in VScode, otherwise may have RPC connection error
+
 One terminal runs `ganache-cli --accounts 10 --fork https://arb1.arbitrum.io/rpc --mnemonic brownie --port 8545 --chainId 42161 --hardfork istanbul`
+
 The other terminal runs `brownie test --interactive`
 
 
