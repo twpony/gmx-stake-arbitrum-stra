@@ -73,9 +73,15 @@ def test_strategy_usage(deployer, vault, strategy, want, keeper):
       allprofitrate = (leftESGMX + profit) / vaultBalanceBefore * 100
       allAPY = allprofitrate * 365 / 15
 
-      print("================== APY (test for 15 days) ==================")
-      print("Realized APY:  ", profitRateAPY)
-      print("All APY (including unrealized ESGMX):   ", allAPY)
+      # print("================== APY (test for 15 days) ==================")
+      # print("Realized APY:  ", profitRateAPY)
+      # print("All APY (including unrealized ESGMX):   ", allAPY)
+      console.print("[green]======================== APY (test for 15 days) ======================== [/green]")
+      console.print("[yellow]Realized APY:  [/yellow]", profitRateAPY)
+      console.print("[yellow]All APY (including unrealized ESGMX):   [/yellow]", allAPY)
+      console.print("[green]======================================================================== [/green]")
+      
+      
 
 
 
